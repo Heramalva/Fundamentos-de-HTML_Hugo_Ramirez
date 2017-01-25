@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+		<title>Evaluacion Final - Fundamentos HTML</title>
+		</head>
+
+	<body>
+    	<header>
+        	<svg width="150px" height="100px">
+            	<image xlink:href="imagenes/logo.svg" width="150px" height="100px"></image>
+			</svg>
+            <img src="imagenes/Control_de_Versiones_y_Git.png">
+			<h1>HOJA DE VIDA</h1>
+            <h2>Datos Personales</h2>
+            <h3>Hugo Estuardo Ramírez Alvarado | 17 de Enero de 1,988 | Cobán, Alta Verapaz, Guatemala</h3>	
+        </header>
+        <nav>
+        	<a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+        </nav>
+        <section>
+        	<article>
+            	<h2>Educación</h2>
+                <table border="1">
+                <thead>
+                	<tr>
+                    	<td>Año</td>
+                        <td>Institución</td>
+                        <td>Lugar</td>
+                        <td>¿Culminó?</td>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    	<td>2,001</td>
+                        <td>Ciclo Secundaria</td>
+                        <td>Cobán</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                    	<td>2,005</td>
+                        <td>Colegio Ceninfav</td>
+                        <td>Cobán</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                    	<td>2,014</td>
+                        <td>Universidad Rural</td>
+                        <td>Cobán</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+                </table>
+                <form name="Formulario de Estudios">
+                <legend><h3>Agregar Estudios</h3></legend>
+                	<label for="ano">Año</label>
+                       	<form name="ano">
+                        	<select>
+                            	<option>2,015</option>
+                                <option>2,016</option>
+                                <option>2,017</option>
+                            </select>
+                        </form>
+                <br/>
+                    <label for="insti">Institución</label>
+                    <input name="insti" type="text" required>
+                <br/>
+                    <label for="lugar">Lugar</label>
+                    <textarea name="lugar" rows="2" cols"25"></textarea>
+                <br/>
+                    <label for="fin">¿Culminó?</label>
+                    <input name="fin" type="radio">Si
+                    <input name="fin" type="radio">No
+                <br/>
+                    <input type="button" value="Enviar">
+        	</article>
+        </section>	
+        <footer>
+       		<p><strong>e-mail: </strong><em>heramalva@gmail.com</em> | <strong>Teléfono: </strong><em>+(502)32277685</em> | <strong>Dirección: </strong>			<em>5 calle 10-70 zona 3, Cobán, Alta Verapaz, Guatemala</em></p>
+       </footer>
+    </body>
+</html>
